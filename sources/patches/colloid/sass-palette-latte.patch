@@ -5,60 +5,60 @@ index 00000000..4ff0da0d
 +++ b/src/sass/_color-palette-catppuccin-latte.scss
 @@ -0,0 +1,87 @@
 + // Our accents
-+ $rosewater: #dc8a78;
-+ $flamingo: #dd7878;
-+ $pink: #ea76cb;
-+ $mauve: #8839ef;
-+ $red: #d20f39;
-+ $maroon: #e64553;
-+ $peach: #fe640b;
-+ $yellow: #df8e1d;
-+ $green: #40a02b;
-+ $teal: #179299;
-+ $sky: #04a5e5;
-+ $sapphire: #209fb5;
-+ $blue: #1e66f5;
-+ $lavender: #7287fd;
++ $rosewater: #e896aa;
++ $flamingo: #e896aa;
++ $pink: #e896aa;
++ $mauve: #ab96e8;
++ $red: #e896aa;
++ $maroon: #e896aa;
++ $peach: #e8d496;
++ $yellow: #e8d496;
++ $green: #aae896;
++ $teal: #96d3e8;
++ $sky: #96d3e8;
++ $sapphire: #96d3e8;
++ $blue: #96aae8;
++ $lavender: #96aae8;
 +// Default Theme Color Palette
 +
 +// Red
-+$red-light: #d20f39;
-+$red-dark: #d20f39;
++$red-light: #e896aa;
++$red-dark: #e896aa;
 +
 +// Pink
-+$pink-light: #ea76cb;
-+$pink-dark: #ea76cb;
++$pink-light: #e896aa;
++$pink-dark: #e896aa;
 +
 +// Purple
-+$purple-light: #8839ef;
-+$purple-dark: #8839ef;
++$purple-light: #ab96e8;
++$purple-dark: #ab96e8;
 +
 +// Blue
-+$blue-light: #1e66f5;
-+$blue-dark: #1e66f5;
++$blue-light: #96aae8;
++$blue-dark: #96aae8;
 +
 +// Teal
-+$teal-light: #179299;
-+$teal-dark: #179299;
++$teal-light: #96d3e8;
++$teal-dark: #96d3e8;
 +
 +// Green
-+$green-light: #40a02b;
-+$green-dark: #40a02b;
++$green-light: #aae896;
++$green-dark: #aae896;
 +
 +// Yellow
-+$yellow-light: #df8e1d;
-+$yellow-dark: #df8e1d;
++$yellow-light: #e8d496;
++$yellow-dark: #e8d496;
 +
 +// Orange
-+$orange-light: #fe640b;
-+$orange-dark: #fe640b;
++$orange-light: #e8d496;
++$orange-dark: #e8d496;
 +
 +// Grey
-+$grey-050: #dce0e8;
-+$grey-100: #e6e9ef;
-+$grey-150: #eff1f5;
-+$grey-200: #ccd0da;
-+$grey-250: #bcc0cc;
++$grey-050: #ffffff;
++$grey-100: #ffffff;
++$grey-150: #ffffff;
++$grey-200: #ffffff;
++$grey-250: #ffffff;
 +$grey-300: red;
 +$grey-350: red;
 +$grey-400: red;
@@ -66,27 +66,27 @@ index 00000000..4ff0da0d
 +$grey-500: red;
 +$grey-550: red;
 +$grey-600: red;
-+$grey-650: #eff1f5;
-+$grey-700: #eff1f5;
-+$grey-750: #e6e9ef;
-+$grey-800: #4c4f69;
-+$grey-850: #020202;
-+$grey-900: #010101;
-+$grey-950: #000000;
++$grey-650: #ffffff;
++$grey-700: #ffffff;
++$grey-750: #ffffff;
++$grey-800: #41445a;
++$grey-850: #41445a;
++$grey-900: #41445a;
++$grey-950: #41445a;
 +
 +// White
-+$white: #eff1f5;
++$white: #ffffff;
 +
 +// Black
-+$black: #11111b;
++$black: #41445a;
 +
 +// Button
-+$button-close: #d20f39;
-+$button-max: #40a02b;
-+$button-min: #df8e1d;
++$button-close: #e896aa;
++$button-max: #aae896;
++$button-min: #e8d496;
 +
 +// Link
-+$links: #04a5e5;
++$links: #96aae8;
 +
 +// Theme
 +$default-light: $purple-light;

@@ -17,10 +17,7 @@ def apply_colloid_patches(colloid_dir, patch_dir):
     for patch in [
         "plank-dark.patch",
         "plank-light.patch",
-        "sass-palette-frappe.patch",
-        "sass-palette-mocha.patch",
         "sass-palette-latte.patch",
-        "sass-palette-macchiato.patch",
         "theme-func.patch",
     ]:
         path = (Path(patch_dir) / patch).relative_to(os.getcwd())

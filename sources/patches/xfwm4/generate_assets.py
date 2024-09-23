@@ -227,20 +227,14 @@ def render_for_flavor(flavor: Flavor, state: RenderState):
         render_for_screen(state=state, flavor=flavor, screen="-xhdpi", ident=ident)
 
 
-generate_for_flavor(PALETTE.mocha)
 generate_for_flavor(PALETTE.latte)
-generate_for_flavor(PALETTE.macchiato)
-generate_for_flavor(PALETTE.frappe)
 
 state = RenderState(
     tasks=[], input_root=f"{THIS_DIR}/patched", output_root=f"{THIS_DIR}/generated"
 )
 start_time = time.time()
 
-render_for_flavor(PALETTE.mocha, state)
 render_for_flavor(PALETTE.latte, state)
-render_for_flavor(PALETTE.macchiato, state)
-render_for_flavor(PALETTE.frappe, state)
 
 for task in state.tasks:
     task.wait()
