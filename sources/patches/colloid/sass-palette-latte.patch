@@ -5,53 +5,53 @@ index 00000000..4ff0da0d
 +++ b/src/sass/_color-palette-catppuccin-latte.scss
 @@ -0,0 +1,87 @@
 + // Our accents
-+ $rosewater: #e896aa;
-+ $flamingo: #e896aa;
-+ $pink: #e896aa;
-+ $mauve: #ab96e8;
-+ $red: #e896aa;
-+ $maroon: #e896aa;
-+ $peach: #e8d496;
-+ $yellow: #e8d496;
-+ $green: #aae896;
-+ $teal: #96d3e8;
-+ $sky: #96d3e8;
-+ $sapphire: #96d3e8;
-+ $blue: #96aae8;
-+ $lavender: #96aae8;
++ $rosewater: #DE843B;
++ $flamingo: #DE843B;
++ $pink: #e86876;
++ $mauve: #8669DD;
++ $red: #D52035;
++ $maroon: #e86876;
++ $peach: #DE843B;
++ $yellow: #DAB852;
++ $green: #4FC229;
++ $teal: #4CB4D6;
++ $sky: #4CB4D6;
++ $sapphire: #4CB4D6;
++ $blue: #4A6ED9;
++ $lavender: #4A6ED9;
 +// Default Theme Color Palette
 +
 +// Red
-+$red-light: #e896aa;
-+$red-dark: #e896aa;
++$red-light: #D52035;
++$red-dark: #D52035;
 +
 +// Pink
-+$pink-light: #e896aa;
-+$pink-dark: #e896aa;
++$pink-light: #e86876;
++$pink-dark: #e86876;
 +
 +// Purple
-+$purple-light: #ab96e8;
-+$purple-dark: #ab96e8;
++$purple-light: #8669DD;
++$purple-dark: #8669DD;
 +
 +// Blue
-+$blue-light: #96aae8;
-+$blue-dark: #96aae8;
++$blue-light: #4A6ED9;
++$blue-dark: #4A6ED9;
 +
 +// Teal
-+$teal-light: #96d3e8;
-+$teal-dark: #96d3e8;
++$teal-light: #4CB4D6;
++$teal-dark: #4CB4D6;
 +
 +// Green
-+$green-light: #aae896;
-+$green-dark: #aae896;
++$green-light: #4FC229;
++$green-dark: #4FC229;
 +
 +// Yellow
-+$yellow-light: #e8d496;
-+$yellow-dark: #e8d496;
++$yellow-light: #DAB852;
++$yellow-dark: #DAB852;
 +
 +// Orange
-+$orange-light: #e8d496;
-+$orange-dark: #e8d496;
++$orange-light: #DE843B;
++$orange-dark: #DE843B;
 +
 +// Grey
 +$grey-050: #ffffff;
@@ -81,12 +81,12 @@ index 00000000..4ff0da0d
 +$black: #41445a;
 +
 +// Button
-+$button-close: #e896aa;
-+$button-max: #aae896;
-+$button-min: #e8d496;
++$button-close: #e86876;
++$button-max: #4FC229;
++$button-min: #DAB852;
 +
 +// Link
-+$links: #96aae8;
++$links: #4A6ED9;
 +
 +// Theme
 +$default-light: $purple-light;
